@@ -1,4 +1,45 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    
+}
+nav img{
+    padding: 15px;
+    width: 160px;
+    height: 70px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-weight: bold;
+    color: white;
+}
+
+nav a:hover{
+    color: #1ED760;
+}
+
+.hero{
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+    text-align: center;
 }
