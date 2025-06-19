@@ -64,7 +64,7 @@ nav a:hover{
     font-weight: 600;
 }
 
-button a:hover{
-    border: 30px solid #1ED760;
-    background-color: #1ED760;
+.Sign-btn:hover{
+    border: 3px solid #1ED760;
+    transform: scale3d(1.1);
 }
