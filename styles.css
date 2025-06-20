@@ -68,3 +68,48 @@ nav a:hover{
     border: 3px solid #1ED760;
     transform: scale3d(1.1);
 }
+
+.about{
+    width: 100%;
+    height: 500px;
+}
+.about h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card{
+    display: block;
+    width: 325px;
+    overflow: hidden;
+    margin:20px;
+}
+
+.card img{
+    width:65%;
+    height: auto;
+    margin: 10px 55px;
+}
+
+.content{
+    padding: 16px;
+    text-align: center;
+}
+
+.content h3{
+    font-size: 24px;
+    margin-bottom: 8px;;
+}
+
+.content p{
+    font-size: 18px;
+    line-height: 1.3;
+}
